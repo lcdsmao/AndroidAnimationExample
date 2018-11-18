@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.paranoid.mao.animationexample.motionlayout.view.CollapsibleToolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:minHeight="64dp"
+        app:layoutDescription="@xml/collapsible_header_scene"
+        app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+
+    <ImageView
+            android:id="@+id/background"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_background" />
+
+    <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transformPivotX="16sp"
+            android:transformPivotY="16sp"
+            android:text="Coffee Shop"
+            android:textSize="32sp"/>
+
+</com.paranoid.mao.animationexample.motionlayout.view.CollapsibleToolbar>
+

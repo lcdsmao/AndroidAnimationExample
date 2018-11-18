@@ -24,6 +24,9 @@ class MotionLayoutExamplesActivity : AppCompatActivity() {
             },
             Entry("Swipe With KeyFrame") {
                 startActivity<SwipeWithKeyFrameActivity>()
+            },
+            Entry("Collapsible Toolbar in CoordinatorLayout") {
+                startActivity<IntegrateIntoCoordinatorLayout>()
             }
         )
         recycler_view.adapter = EntryAdapter(entries)
