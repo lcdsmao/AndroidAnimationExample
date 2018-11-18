@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:minHeight="64dp"
-        app:layoutDescription="@xml/collapsible_header_scene"
+        app:layoutDescription="@xml/scene_collapsible_header"
         app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
 
     <ImageView

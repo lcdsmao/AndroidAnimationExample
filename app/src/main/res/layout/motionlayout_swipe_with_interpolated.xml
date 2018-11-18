@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorBackground"
-        app:layoutDescription="@xml/swipe_with_interpolated" >
+        app:layoutDescription="@xml/scene_swipe_with_interpolated" >
 
     <View
             android:id="@+id/button"
