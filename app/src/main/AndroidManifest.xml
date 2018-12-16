@@ -11,6 +11,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".revealhide.CrossFadeExampleActivity">
+        </activity>
+        <activity android:name=".revealhide.RevealOrHideViewExamplesActivity">
+        </activity>
         <activity android:name=".motionlayout.SwipeWithKeyFrameActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -22,7 +26,7 @@
         <activity android:name=".motionlayout.MotionLayoutExamplesActivity"/>
         <activity android:name=".motionlayout.SimpleSwipeActivity"/>
         <activity android:name=".motionlayout.SwipeWithInterpolatedActivity"/>
-        <activity android:name="com.paranoid.mao.animationexample.animatedrawable.AnimatedDrawableExampleActivity"/>
+        <activity android:name=".animatedrawable.AnimatedDrawableExampleActivity"/>
         <activity android:name=".motionlayout.IntegrateIntoCoordinatorLayout"/>
     </application>
 
