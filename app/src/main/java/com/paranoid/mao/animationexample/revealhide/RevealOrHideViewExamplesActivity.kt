@@ -14,7 +14,7 @@ class RevealOrHideViewExamplesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.entries_layout)
 
-        activity_title.text = "Animation Examples"
+        activity_title.text = "Reveal or Hide View Examples"
         val entries = listOf(
             Entry("Cross Fade Animation") { startActivity<CrossFadeExampleActivity>() }
         )

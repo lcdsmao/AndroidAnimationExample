@@ -14,7 +14,7 @@ class MotionLayoutExamplesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.entries_layout)
 
-        activity_title.text = "MotionLayout Examples"
+        activity_title.text = "Motion Layout Examples"
         val entries = listOf(
             Entry("Simple Swipe") {
                 startActivity<SimpleSwipeActivity>()
