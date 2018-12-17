@@ -16,7 +16,8 @@ class RevealOrHideViewExamplesActivity : AppCompatActivity() {
 
         activity_title.text = "Reveal or Hide View Examples"
         val entries = listOf(
-            Entry("Cross Fade Animation") { startActivity<CrossFadeExampleActivity>() }
+            Entry("Cross Fade Animation") { startActivity<CrossFadeExampleActivity>() },
+            Entry("Card Flip between Fragments") { startActivity<CardFlipExampleActivity>() }
         )
         recycler_view.adapter = EntryAdapter(entries)
     }
