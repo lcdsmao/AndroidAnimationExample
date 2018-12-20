@@ -18,7 +18,8 @@ class RevealOrHideViewExamplesActivity : AppCompatActivity() {
         val entries = listOf(
             Entry("Cross Fade Animation") { startActivity<CrossFadeExampleActivity>() },
             Entry("Card Flip between Fragments") { startActivity<CardFlipExampleActivity>() },
-            Entry("Circular Reveal Animation") { startActivity<CircularRevealExampleActivity>() }
+            Entry("Circular Reveal Animation") { startActivity<CircularRevealExampleActivity>() },
+            Entry("Expansion List") { startActivity<ExpansionListExampleActivity>() }
         )
         recycler_view.adapter = EntryAdapter(entries)
     }
