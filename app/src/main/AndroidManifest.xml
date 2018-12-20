@@ -29,6 +29,7 @@
         <activity android:name=".revealhide.RevealOrHideViewExamplesActivity"/>
         <activity android:name=".revealhide.CircularRevealExampleActivity"/>
         <activity android:name=".revealhide.ExpansionListExampleActivity"/>
+        <activity android:name=".move.ZoomExampleActivity"/>
     </application>
 
 </manifest>
