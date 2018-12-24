@@ -30,6 +30,8 @@
         <activity android:name=".revealhide.CircularRevealExampleActivity"/>
         <activity android:name=".revealhide.ExpansionListExampleActivity"/>
         <activity android:name=".move.ZoomExampleActivity"/>
+        <activity android:name=".transition.PlaceHolderExampleActivity"/>
+        <activity android:name=".transition.TransitionExamplesActivity"/>
     </application>
 
 </manifest>

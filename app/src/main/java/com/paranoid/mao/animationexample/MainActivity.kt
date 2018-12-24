@@ -6,6 +6,7 @@ import com.paranoid.mao.animationexample.motionlayout.MotionLayoutExamplesActivi
 import com.paranoid.mao.animationexample.animatedrawable.AnimatedDrawableExampleActivity
 import com.paranoid.mao.animationexample.move.ZoomExampleActivity
 import com.paranoid.mao.animationexample.revealhide.RevealOrHideViewExamplesActivity
+import com.paranoid.mao.animationexample.transition.TransitionExamplesActivity
 import kotlinx.android.synthetic.main.entries_layout.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +20,8 @@ class MainActivity : AppCompatActivity() {
             Entry("Motion Layout Examples") { startActivity<MotionLayoutExamplesActivity>() },
             Entry("Animated Vector Drawable Examples") { startActivity<AnimatedDrawableExampleActivity>() },
             Entry("Reveal or Hide View Examples") { startActivity<RevealOrHideViewExamplesActivity>() },
-            Entry("Zoom Example") { startActivity<ZoomExampleActivity>() }
+            Entry("Zoom Example") { startActivity<ZoomExampleActivity>() },
+            Entry("Transition Examples") { startActivity<TransitionExamplesActivity>() }
         )
         recycler_view.adapter = EntryAdapter(entries)
     }
